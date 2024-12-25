@@ -1,4 +1,4 @@
-interface Employee {
+export interface IEmployee {
     firstName: string;
     lastName: string;
     phone: string;
@@ -7,7 +7,7 @@ interface Employee {
     email: string;
     verified?: boolean;
 }
-export const employees: Employee[] = [
+export const employees: IEmployee[] = [
     {
         firstName: "John",
         lastName: "Doe",
